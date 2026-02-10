@@ -7,7 +7,7 @@ swift rlhf \
   --model_type qwen2_5_vl \
   --dataset ./dataset/vqa_sft.jsonl \
   --train_type lora \
-  --per_device_train_batch_size 2 \
+  --per_device_train_batch_size 1 \
   --gradient_accumulation_steps 8 \
   --max_steps 300 \
   --max_length 2048 \
