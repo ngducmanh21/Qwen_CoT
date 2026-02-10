@@ -1,0 +1,18 @@
+# Install LLaMA-Factory and MS-SWIFT from submodules
+# Run these commands first:
+#   cd LLaMA-Factory && pip install -e . && cd ..
+#   cd ms-swift && pip install -e . && cd ..
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+tqdm>=4.66.0
+jupyter>=1.0.0
+notebook>=7.0.0
+#liger-kernels>=0.1.0
+wandb>=0.15.0
+qwen_vl_utils>=0.0.6
+decord
+flash-attn --no-build-isolation --no-cache-dir
